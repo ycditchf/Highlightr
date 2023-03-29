@@ -308,7 +308,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Highlightr_Example/Pods-Highlightr_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-Highlightr_Example/Pods-Highlightr_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework",
 				"${BUILT_PRODUCTS_DIR}/Highlightr-iOS/Highlightr.framework",
 			);
@@ -319,7 +319,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Highlightr_Example/Pods-Highlightr_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Highlightr_Example/Pods-Highlightr_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		99E9E4A243E20636B6862D85 /* [CP] Embed Pods Frameworks */ = {
@@ -328,7 +328,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Highlightr_OSX_Example/Pods-Highlightr_OSX_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-Highlightr_OSX_Example/Pods-Highlightr_OSX_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Highlightr-macOS/Highlightr.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -337,7 +337,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Highlightr_OSX_Example/Pods-Highlightr_OSX_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Highlightr_OSX_Example/Pods-Highlightr_OSX_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
