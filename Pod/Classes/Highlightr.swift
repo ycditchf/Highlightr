@@ -156,7 +156,7 @@ open class Highlightr
     /**
      return htmlString
      */
-    open func highlight(_ code: String, as languageName: String? = nil, fastRender: Bool = true) -> String?
+    open func highlightToHtmlß(_ code: String, as languageName: String? = nil, fastRender: Bool = true) -> String?
     {
         let ret: JSValue
         if let languageName = languageName
